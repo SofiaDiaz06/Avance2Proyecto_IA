@@ -1,4 +1,4 @@
-## 🛒 1. ¿De qué trata el proyecto?
+## 1. ¿De qué trata el proyecto?
 En el sector comercial de Cartago, muchas misceláneas y almacenes de variedades toman decisiones de inventario de forma intuitiva. Esto genera dos problemas principales como productos que se venden rápido se quedan sin stock, y mercancía que no rota se acumula inmovilizando el dinero. 
 La idea es desarrollar un sistema de clasificación binaria para sugerir si un producto debe reabastecerse o no.
 

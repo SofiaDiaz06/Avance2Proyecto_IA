@@ -1,42 +1,21 @@
-# IA - Python
+## 🛒 1. ¿De qué trata el proyecto?
+En el sector comercial de Cartago, muchas misceláneas y almacenes de variedades toman decisiones de inventario de forma intuitiva. Esto genera dos problemas principales como productos que se venden rápido se quedan sin stock, y mercancía que no rota se acumula inmovilizando el dinero. 
+La idea es desarrollar un sistema de clasificación binaria para sugerir si un producto debe reabastecerse o no.
 
-Proyecto académico de Inteligencia Artificial.
+## 2. Ajustes 
+* **Regla de decisión** 
+* **Sin fuga de datos** 
+* **Modelo mejorado:** 
 
-## Tecnologías
+## 3. Preparación de datos y Análisis Visual
+* **Limpieza con Pandas** 
+* **Gráficos con Seaborn:**
+  1. Distribución de unidades vendidas en el mes.
+  2. Promedio de unidades vendidas por categoría.
+  3. Relación de ventas frente a la ganancia unitaria y decisión de abastecimiento.
 
-- Python
-- Docker
-- Docker Compose
-- Git
-- GitHub
-
-## Ejecución
-
-```bash
-docker compose build
-docker compose up
-```
-
-## Detener
-
-```bash
-docker compose down
-```
-
-# Sistema de recomendacion de productos de autocuidado
-
-## Problematica Local
-En Cartago, no hay una herramienta o guia accesible para consultar productos de cuidado personal según el presupuesto y la efectividad real. Esto lleva a las personas a comprar a ciegas, gastando de mas en productos poco adecuados para sus necesidades.
-
-## Objetivo del Proyecto
-Desarrollar un sistema en python que procese un catalogo de productos de autocuidado disponibles, permitiendo analizar precios, calificaciones de usuarios y recomendar las mejores opciones para el presupuesto de cada persona.
-
-## Estructura de Datos
-El proyecto utiliza un archivo CSV (`datos_autocuidado.csv`) con las columnas:
-- `id_producto`: Identificador.
-- `nombre`
-- `precio`
-- `calificacion_cliente`: Calificacion de 1 a 5
-
-## Estado del Proyecto
-- Archivo `cargar_datos.py` funcional con lectura de CSV y generación de estadisticas basicas (promedios,minimos y maximos).
+## Resultados
+* **Pérdida inicial:** 0.6940
+* **Pérdida final:** 0.3245
+* **Exactitud final:** 90.91%
+* El repositorio tiene las gráficas de la curva de aprendizaje y la frontera de decisión del modelo.
